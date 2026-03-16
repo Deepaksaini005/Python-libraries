@@ -1,0 +1,27 @@
+label – is used for the name given to the data/region of the scatter chart (shown using legend).
+
+color / c – is used to change the color of the scatter points.
+
+s (size) – is used to set the size of the scatter points.
+
+marker – is used to change the shape of the scatter points
+(e.g. o, *, x, +).
+
+alpha – is used to set the transparency of the points
+(value between 0 to 1).
+
+edgecolors – is used to set the border color of the scatter points.
+
+linewidths – is used to set the width of the marker edges.
+
+cmap – is used to apply a color map when colors vary according to values.
+
+plt.xlabel() – is used to label the X-axis.
+
+plt.ylabel() – is used to label the Y-axis.
+
+plt.title() – is used to set the title of the scatter chart.
+
+plt.legend() – is used to display the label information.
+
+plt.grid() – is used to display grid lines in the scatter chart.

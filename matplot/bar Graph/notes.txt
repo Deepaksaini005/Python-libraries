@@ -1,0 +1,259 @@
+Here is an **IMPROVED, CLEAN, and EXAM-READY version** of your content.
+I have:
+
+* Removed repetition
+* Corrected wording
+* Made descriptions sharper
+* Kept **exact “tag → description → how to use” format**
+* Made it **perfect for notes & answers** ✅
+
+---
+
+# 📊 Bar Graph Properties in Matplotlib
+
+👉 **Format:** **Tag → Description → How to use**
+👉 **Functions used:** `plt.bar()` (vertical), `plt.barh()` (horizontal)
+
+---
+
+### **1. `x`**
+
+**Description:**
+Specifies the positions or categories of bars on the x-axis (vertical bar graph).
+
+**How to use:**
+
+```python
+plt.bar(x, y)
+```
+
+---
+
+### **2. `height`**
+
+**Description:**
+Defines the height (value) of vertical bars.
+
+**How to use:**
+
+```python
+plt.bar(x, height)
+```
+
+---
+
+### **3. `y`** *(for `barh`)*
+
+**Description:**
+Specifies the positions or categories of bars on the y-axis (horizontal bar graph).
+
+**How to use:**
+
+```python
+plt.barh(y, x)
+```
+
+---
+
+### **4. `width`**
+
+**Description:**
+Controls the thickness of vertical bars (default value = 0.8).
+
+**How to use:**
+
+```python
+plt.bar(x, y, width=0.4)
+```
+
+---
+
+### **5. `height`** *(for `barh`)*
+
+**Description:**
+Controls the thickness of horizontal bars.
+
+**How to use:**
+
+```python
+plt.barh(y, x, height=0.5)
+```
+
+---
+
+### **6. `color`**
+
+**Description:**
+Used to set or change the color of bars.
+
+**How to use:**
+
+```python
+plt.bar(x, y, color='purple')
+```
+
+---
+
+### **7. `label`**
+
+**Description:**
+Assigns a name to the bar graph for displaying in the legend.
+
+**How to use:**
+
+```python
+plt.bar(x, y, label='Sales')
+plt.legend()
+```
+
+---
+
+### **8. `align`**
+
+**Description:**
+Aligns bars relative to x-axis positions (`center` or `edge`).
+
+**How to use:**
+
+```python
+plt.bar(x, y, align='center')
+```
+
+---
+
+### **9. `edgecolor`**
+
+**Description:**
+Sets the color of the bar borders.
+
+**How to use:**
+
+```python
+plt.bar(x, y, edgecolor='black')
+```
+
+---
+
+### **10. `linewidth`**
+
+**Description:**
+Specifies the thickness of the bar border lines.
+
+**How to use:**
+
+```python
+plt.bar(x, y, linewidth=2)
+```
+
+---
+
+### **11. `alpha`**
+
+**Description:**
+Controls transparency of bars (range: 0 to 1).
+
+**How to use:**
+
+```python
+plt.bar(x, y, alpha=0.6)
+```
+
+---
+
+### **12. `hatch`**
+
+**Description:**
+Adds pattern design inside the bars.
+
+**How to use:**
+
+```python
+plt.bar(x, y, hatch='/')
+```
+
+---
+
+### **13. `bottom`**
+
+**Description:**
+Specifies the starting point of bars on the y-axis (used in stacked bar charts).
+
+**How to use:**
+
+```python
+plt.bar(x, y1)
+plt.bar(x, y2, bottom=y1)
+```
+
+---
+
+### **14. `left`** *(for `barh`)*
+
+**Description:**
+Specifies the starting point of horizontal bars on the x-axis.
+
+**How to use:**
+
+```python
+plt.barh(y, x2, left=x1)
+```
+
+---
+
+### **15. `tick_label`**
+
+**Description:**
+Used to display custom labels on the axis.
+
+**How to use:**
+
+```python
+plt.bar(x, y, tick_label=['A', 'B', 'C'])
+```
+
+---
+
+### **16. `log`**
+
+**Description:**
+Displays bars using a logarithmic scale.
+
+**How to use:**
+
+```python
+plt.bar(x, y, log=True)
+```
+
+---
+
+### **17. `visible`**
+
+**Description:**
+Controls the visibility of the bars.
+
+**How to use:**
+
+```python
+plt.bar(x, y, visible=True)
+```
+
+---
+
+### **18. `zorder`**
+
+**Description:**
+Determines the drawing order of bars (higher value appears on top).
+
+**How to use:**
+
+plt.bar(x, y, zorder=2)
+
+---
+
+## ✅ Exam Tip (Very Important ⭐)
+
+* `plt.bar()` → **Vertical Bar Graph**
+* `plt.barh()` → **Horizontal Bar Graph**
+* `bottom` & `left` → **Stacked bar charts**
+
+--

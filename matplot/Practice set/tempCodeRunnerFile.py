@@ -1,0 +1,1 @@
+plt.bar(subjects1, gender, bottom=boys+girls, label = "Total" , color = "red")

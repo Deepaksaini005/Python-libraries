@@ -1,0 +1,226 @@
+
+
+# 📌 Line Graph Properties
+
+---
+
+### **1. `x`**
+
+**Description:**
+X-axis values (independent variable).
+
+**How to use:**
+
+```python
+plt.plot(x, y)
+```
+
+---
+
+### **2. `y`**
+
+**Description:**
+Y-axis values (dependent variable).
+
+**How to use:**
+
+```python
+plt.plot(x, y)
+```
+
+---
+
+### **3. `color`**
+
+**Description:**
+Changes the color of the line.
+
+**How to use:**
+
+```python
+plt.plot(x, y, color='red')
+```
+
+---
+
+### **4. `linestyle`**
+
+**Description:**
+Controls the style of the line.
+
+**Types:** `'-'`, `'--'`, `'-.'`, `':'`
+
+**How to use:**
+
+```python
+plt.plot(x, y, linestyle='--')
+```
+
+---
+
+### **5. `linewidth`**
+
+**Description:**
+Controls the thickness of the line.
+
+**How to use:**
+
+```python
+plt.plot(x, y, linewidth=2)
+```
+
+---
+
+### **6. `marker`**
+
+**Description:**
+Adds symbols on data points.
+
+**Examples:** `'o'`, `'*'`, `'s'`, `'^'`
+
+**How to use:**
+
+```python
+plt.plot(x, y, marker='o')
+```
+
+---
+
+### **7. `markersize`**
+
+**Description:**
+Controls size of marker symbols.
+
+**How to use:**
+
+```python
+plt.plot(x, y, marker='o', markersize=8)
+```
+
+---
+
+### **8. `markerfacecolor`**
+
+**Description:**
+Changes fill color of marker.
+
+**How to use:**
+
+```python
+plt.plot(x, y, marker='o', markerfacecolor='yellow')
+```
+
+---
+
+### **9. `markeredgecolor`**
+
+**Description:**
+Changes border color of marker.
+
+**How to use:**
+
+```python
+plt.plot(x, y, marker='o', markeredgecolor='black')
+```
+
+---
+
+### **10. `label`**
+
+**Description:**
+Gives name to the line (used in legend).
+
+**How to use:**
+
+```python
+plt.plot(x, y, label='Sales')
+plt.legend()
+```
+
+---
+
+### **11. `alpha`**
+
+**Description:**
+Controls transparency (0–1).
+
+**How to use:**
+
+```python
+plt.plot(x, y, alpha=0.6)
+```
+
+---
+
+### **12. `zorder`**
+
+**Description:**
+Controls drawing order of lines.
+
+**How to use:**
+
+```python
+plt.plot(x, y, zorder=2)
+```
+
+---
+
+### **13. `visible`**
+
+**Description:**
+Shows or hides the line.
+
+**How to use:**
+
+```python
+plt.plot(x, y, visible=True)
+```
+
+---
+
+### **14. `drawstyle`**
+
+**Description:**
+Defines how points are connected.
+
+**Types:** `default`, `steps`, `steps-pre`, `steps-post`
+
+**How to use:**
+
+```python
+plt.plot(x, y, drawstyle='steps')
+```
+
+---
+
+### **15. `markevery`**
+
+**Description:**
+Shows marker at specific intervals.
+
+**How to use:**
+
+```python
+plt.plot(x, y, marker='o', markevery=2)
+```
+
+---
+
+## 🔹 Simple Line Graph Example
+
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+plt.plot(x, y, color='blue', marker='o', linestyle='--', label='Growth')
+plt.xlabel('Time')
+plt.ylabel('Value')
+plt.title('Line Graph Example')
+plt.legend()
+plt.show()
+```
+
+
+

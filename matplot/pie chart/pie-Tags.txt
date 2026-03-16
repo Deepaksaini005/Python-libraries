@@ -1,0 +1,21 @@
+label - is used for the name given to the region of the chart  
+
+explode - is  used for the put out the part of chart (pie) as a slice .
+
+counterclock - is used to channge the direcction of the pie chart(True / False)
+
+colors- is used for the change the color
+ 
+autopct -is used for the data in percentage .
+   
+startangle - in these chart start from which angle . 
+
+shadow - is used  for  the shadow given to the pie chart .
+
+radius-- is  used to set the  radius of the pie chart . 
+
+labeldistance - set the distance b/w the labels and thepie chart  . 
+
+textprops={'fontsize': 15 , 'color': 'black'} - these used for to  change the property of the text . 
+
+wedgeprops={'edgecolor': 'black' , 'linewidth': 2 , "edgecolor" : "b"} - these use to change the property of the pie  charts . 
